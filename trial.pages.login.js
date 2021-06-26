@@ -12,7 +12,8 @@ function myFunction() {
     var password=document.getElementById("password").value;
     if (username=="admin"&& password=="admin" 
     || username=="kishan"&& password=="kishan"
-    || username=="raju"&& password=="raju")
+    || username=="raju"&& password=="raju"
+    || username=="lol"&& password=="lol")
     {
     alert("login sucessfull")
     return false;
